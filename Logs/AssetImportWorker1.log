@@ -1,0 +1,462 @@
+Unity Editor version:    2021.3.10f1 (1c7d0df0160b)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #59-Ubuntu SMP Wed Jun 15 20:17:13 UTC 2022
+Kernel version:          5.13.0-52-generic
+Architecture:            x86_64
+Available memory:        15844 MB
+Using pre-set license
+Pro License: YES
+
+(Unity:74669): Gdk-CRITICAL **: 15:19:13.102: gdk_window_get_cursor: assertion 'GDK_IS_WINDOW (window)' failed
+Desktop is 3840 x 1080 @ 60 Hz
+Initialize udev device monitor.
+
+COMMAND LINE ARGUMENTS:
+Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/home/justsomedude/Documents/GitHub/Only Upwards Mobile
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+38825
+Successfully changed project path to: /home/justsomedude/Documents/GitHub/Only Upwards Mobile
+/home/justsomedude/Documents/GitHub/Only Upwards Mobile
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 345,66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path /home/justsomedude/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/justsomedude/Documents/GitHub/Only Upwards Mobile/Assets
+GLX Extensions: GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_import_context GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_swap_method GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+Renderer: Mesa Intel(R) UHD Graphics 630 (CFL GT2)
+Vendor:   Intel
+Version:  4.6 (Core Profile) Mesa 21.2.6
+GLES:     0
+ GL_3DFX_texture_compression_FXT1 GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB
+_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_po
+int_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier G
+L_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewpor
+t_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_demote_to_helper_invocation GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_t
+exture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_INTEL_shader_atomic_float_minmax GL_INTEL_shader_integer_functions2 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_fragment_shader_interlock GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 555068464
+Initialize mono
+Mono path[0] = '/home/justsomedude/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
+Mono path[1] = '/home/justsomedude/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/justsomedude/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56669
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/justsomedude/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /home/justsomedude/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /home/justsomedude/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /home/justsomedude/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: /home/justsomedude/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /home/justsomedude/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0,023136 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 317,73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1,684 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1685ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1267ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (272ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (800ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (162ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (318ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (124ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0,015818 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/justsomedude/Documents/GitHub/Only Upwards Mobile/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /home/justsomedude/Documents/GitHub/Only Upwards Mobile/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 284,69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+UpdateMenuTitleForLanguage: 10
+Mono: successfully reloaded assembly
+- Completed reload, in  2,866 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2868ms)
+		BeginReloadAssembly (286ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (140ms)
+		EndReloadAssembly (2358ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (581ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (146ms)
+			SetupLoadedEditorAssemblies (1402ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (58ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (285ms)
+				BeforeProcessingInitializeOnLoad (210ms)
+				ProcessInitializeOnLoadAttributes (592ms)
+				ProcessInitializeOnLoadMethodAttributes (245ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1,04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 5732 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (0,6 MB). Loaded Objects now: 6205.
+Memory consumption went from 227,6 MB to 226,9 MB.
+Total: 10,143769 ms (FindLiveObjects: 0,731594 ms CreateObjectMapping: 0,872507 ms MarkObjects: 7,578426 ms  DeleteObjects: 0,958547 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 62194,866769 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/MODEL/barrels.fbx
+  artifactKey: Guid(569ce3660f7bf61468b41306d23c8c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/MODEL/barrels.fbx using Guid(569ce3660f7bf61468b41306d23c8c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f806c2b7a02a2b1a310a88b51ef8224') in 0,688550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000128 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/MODEL/vehicles.fbx
+  artifactKey: Guid(60ed105119ffa2041ab0b95869064272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/MODEL/vehicles.fbx using Guid(60ed105119ffa2041ab0b95869064272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5db6bc05f1028072fe6c499b3260b4a') in 0,189013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000058 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/MODEL/cablerolls.fbx
+  artifactKey: Guid(ea27d8630e52ee6418d642170d55a9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/MODEL/cablerolls.fbx using Guid(ea27d8630e52ee6418d642170d55a9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75663b2c45c8f802dfa3075ad63fdd02') in 0,321140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000062 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/MODEL/generators.fbx
+  artifactKey: Guid(83ccde814b6a13d42970a079c832166b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/MODEL/generators.fbx using Guid(83ccde814b6a13d42970a079c832166b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19963e7ce777d9c63cbb7e1c3147582') in 0,272688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000070 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/MODEL/essentials.fbx
+  artifactKey: Guid(4a7524fe22d24ab44991cc211f71b768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/MODEL/essentials.fbx using Guid(4a7524fe22d24ab44991cc211f71b768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0196d12c7259609678d7e8c0d8a8eb6f') in 0,396073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000320 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/MODEL/pylons and barriers.fbx
+  artifactKey: Guid(ec2fefb2c45dbf945ad4558501f3b522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/MODEL/pylons and barriers.fbx using Guid(ec2fefb2c45dbf945ad4558501f3b522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4704c54321dbe7e8961a37daaf86db') in 0,985842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18,504672 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/Arrow_Sign_Left.prefab
+  artifactKey: Guid(045e825695b05804680cee36441ff747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/Arrow_Sign_Left.prefab using Guid(045e825695b05804680cee36441ff747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee169c9763e110b1b22d5c90173d176') in 0,020019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000052 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/Barrier_01a.prefab
+  artifactKey: Guid(847194d96789f934cae7862352d11d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/Barrier_01a.prefab using Guid(847194d96789f934cae7862352d11d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a650b12255e4207a77d9aefe2928b3') in 0,017434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000058 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/ConstructionPylons_01e.prefab
+  artifactKey: Guid(5d6adfab90b0248429a391a65b99fe67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/ConstructionPylons_01e.prefab using Guid(5d6adfab90b0248429a391a65b99fe67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ae81b1282a7015999fc1db339888ad') in 0,020665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000043 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/Eng_ConcreteBlock02.prefab
+  artifactKey: Guid(4f021f790d0d10c40b114d1962d78423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/Eng_ConcreteBlock02.prefab using Guid(4f021f790d0d10c40b114d1962d78423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa228a704ffd8a1257736083d0d5e55') in 0,023191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000042 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/Coring_Drill_01b.prefab
+  artifactKey: Guid(5ccce6f24a5f59141a7c33149a36abfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/Coring_Drill_01b.prefab using Guid(5ccce6f24a5f59141a7c33149a36abfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '395a043b99e272c2b44bd6915bdbb8f8') in 0,027079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000038 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/ConcreteBarrier_02a.prefab
+  artifactKey: Guid(ca46a074919861a4ca2d61fd60d14747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/ConcreteBarrier_02a.prefab using Guid(ca46a074919861a4ca2d61fd60d14747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e8416858dab90d64464fa9e2a087ab') in 0,041909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000037 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/CableRoll_02c.prefab
+  artifactKey: Guid(1845b3f087d8f964dad85075eb975292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/CableRoll_02c.prefab using Guid(1845b3f087d8f964dad85075eb975292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244913780b537852e8f287ef5a5fde19') in 0,017810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000040 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/ConcreteBarrier_03d.prefab
+  artifactKey: Guid(2c81184184c266940a1336ca472cfb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/ConcreteBarrier_03d.prefab using Guid(2c81184184c266940a1336ca472cfb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2628c0254b3e277833a0669e4a2fd57c') in 0,052474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000038 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/concreteBag.prefab
+  artifactKey: Guid(fc515026be2fe6f4899dd424b520e9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/concreteBag.prefab using Guid(fc515026be2fe6f4899dd424b520e9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2e6f1ece8f59cef101c0af1256b0b0') in 0,051389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000048 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/CableRoll_01f.prefab
+  artifactKey: Guid(f7a0da6dafa1dff4da1fb9b80f1fd2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/CableRoll_01f.prefab using Guid(f7a0da6dafa1dff4da1fb9b80f1fd2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f5762d59d48c07aeeaf01bd1ccda85') in 0,050445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000051 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/Barrier_02.prefab
+  artifactKey: Guid(a54c7130cfa01da44bbeda38da326f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/Barrier_02.prefab using Guid(a54c7130cfa01da44bbeda38da326f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5315ebf7d014b75ce14c4d0a8d5c7463') in 0,045158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000065 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/Eng_ConcreteBlock03.prefab
+  artifactKey: Guid(4e79843cb0311ef4dbbb57a0e6a43c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/Eng_ConcreteBlock03.prefab using Guid(4e79843cb0311ef4dbbb57a0e6a43c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558b167a5a10f76c8fb1f8beea79dcf3') in 0,040822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000077 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/ConcreteBarrier_03b.prefab
+  artifactKey: Guid(c019b05b5ac4cab4186e62f930d8e870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/ConcreteBarrier_03b.prefab using Guid(c019b05b5ac4cab4186e62f930d8e870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09cca0339d454419b1b50ed05bea5b9d') in 0,052988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000040 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/Barrier_Gate_RED_01.prefab
+  artifactKey: Guid(bfd895632c501ef42b908de534512180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/Barrier_Gate_RED_01.prefab using Guid(bfd895632c501ef42b908de534512180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f53aa522c67f86e2e7e801a39bc588d') in 0,048947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000055 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/barrelWater.prefab
+  artifactKey: Guid(8fa4fb7242c04514e83c9c16b9c973fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/barrelWater.prefab using Guid(8fa4fb7242c04514e83c9c16b9c973fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e241306d771503cdc1d7d404c40152f') in 0,020984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000038 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/entry_light_green.prefab
+  artifactKey: Guid(9f717cfff5f65f04e855ad01b81b0595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/entry_light_green.prefab using Guid(9f717cfff5f65f04e855ad01b81b0595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba22d2eefeda6963a0b1366dcc42957f') in 0,032020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000036 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/ConcreteBricks_1.prefab
+  artifactKey: Guid(26b304f35a44d174aadddc18b2b213c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/ConcreteBricks_1.prefab using Guid(26b304f35a44d174aadddc18b2b213c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd598de84cbfe65f9b552d06313c68eeb') in 0,041234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000045 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/ConcreteBarrier_03e.prefab
+  artifactKey: Guid(c0a46db5fdaf6f44c9f1e76c511929cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/ConcreteBarrier_03e.prefab using Guid(c0a46db5fdaf6f44c9f1e76c511929cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e24aa624b3bbd11add8608c7dd7ea4a') in 0,018759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000044 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/Eng_ConcreteBlock01.prefab
+  artifactKey: Guid(2a1e10f7aa7eae24ab4ef581c46793ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/Eng_ConcreteBlock01.prefab using Guid(2a1e10f7aa7eae24ab4ef581c46793ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f4da62c2aecfe7a70bed251bd406a2') in 0,025361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000054 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/Barrier_02b.prefab
+  artifactKey: Guid(4974d5381a79651439fcb0cc7fedba06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/Barrier_02b.prefab using Guid(4974d5381a79651439fcb0cc7fedba06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c11d1755e4d35f685f584f83db60947') in 0,020772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000060 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/ConcreteBox_Broken_01.prefab
+  artifactKey: Guid(ecf8ee9053b07a945b4b420f93610551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/ConcreteBox_Broken_01.prefab using Guid(ecf8ee9053b07a945b4b420f93610551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04df15a7186f545011596afd94a61551') in 0,023442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000048 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/CableRoll_01e.prefab
+  artifactKey: Guid(9ab5d0731549bf842b80629388c53c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/CableRoll_01e.prefab using Guid(9ab5d0731549bf842b80629388c53c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3befca799eb47515fb68e8d44b59a6a9') in 0,019051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000033 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/Barrier_03.prefab
+  artifactKey: Guid(c9dde49dd248d4648a5c821c3a6d2e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/Barrier_03.prefab using Guid(c9dde49dd248d4648a5c821c3a6d2e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822f225971abe6fc517677df1a778d96') in 0,017647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000039 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/CableRoll_01j.prefab
+  artifactKey: Guid(a3302c71d20163c42b53d205d9e06030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/CableRoll_01j.prefab using Guid(a3302c71d20163c42b53d205d9e06030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b98959126c530544e6bc5a502144926') in 0,021105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000053 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/ConcreteBarrier_03f.prefab
+  artifactKey: Guid(4a8e2cc4345acb54facd77557826fcda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/ConcreteBarrier_03f.prefab using Guid(4a8e2cc4345acb54facd77557826fcda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe0a1df174616c6c29d1a4846541e6b') in 0,019901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000056 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/CableRoll_01a.prefab
+  artifactKey: Guid(cd5737d632c87af41b68a2528b122ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/CableRoll_01a.prefab using Guid(cd5737d632c87af41b68a2528b122ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa099bd5cb8e26d8a412b22045c145e1') in 0,055823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000041 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/ConcreteMixer_01c.prefab
+  artifactKey: Guid(eff3721c9a342ea41be3981354699ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/ConcreteMixer_01c.prefab using Guid(eff3721c9a342ea41be3981354699ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd8f86b84344fb136f7da4d68f94fb58') in 0,025222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000061 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/ConcreteMixer_01a.prefab
+  artifactKey: Guid(14a9ae484270d3148afc597b04ecd7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/ConcreteMixer_01a.prefab using Guid(14a9ae484270d3148afc597b04ecd7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '457d89b4f4b3c32cc8b67ab1f9f33b2f') in 0,027291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000057 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/BK_Machinery01.prefab
+  artifactKey: Guid(e68f30132d76758489a69b29ad010528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/BK_Machinery01.prefab using Guid(e68f30132d76758489a69b29ad010528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918efee57777b3f53d704ca7aac5872b') in 0,063089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000035 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/ConcreteBox_01.prefab
+  artifactKey: Guid(d4a344b9feb9ff7468ee5218c41dc277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/ConcreteBox_01.prefab using Guid(d4a344b9feb9ff7468ee5218c41dc277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5178317b3f9ced126acfbb131a1b75d2') in 0,022004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000053 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/essentials.prefab
+  artifactKey: Guid(c2d88ccbd694b26489087bbd7ed93ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/essentials.prefab using Guid(c2d88ccbd694b26489087bbd7ed93ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a87478021bdd4a82cba94d875aa1894') in 0,083589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000128 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/barrel1.prefab
+  artifactKey: Guid(4e0897757c588564b874f2fb62e818d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/barrel1.prefab using Guid(4e0897757c588564b874f2fb62e818d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c58369a55001b13dfa623e4596462d') in 0,050344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000037 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/Coring_Drill_01a.prefab
+  artifactKey: Guid(19942a824ab38314c909bb9c1c863e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/Coring_Drill_01a.prefab using Guid(19942a824ab38314c909bb9c1c863e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff22d1a53f2f021005fab5c39891ee12') in 0,012636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000031 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/Gas_Cylinder_Bunch.prefab
+  artifactKey: Guid(6ee9a0ef75a1f3e4e995d152139ad937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/Gas_Cylinder_Bunch.prefab using Guid(6ee9a0ef75a1f3e4e995d152139ad937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91ee7cb635f8b26d63a350f4008bdf5') in 0,057958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000033 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/Eng_Cone01.prefab
+  artifactKey: Guid(589f129ff3a528848aae380f6f5dd2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/Eng_Cone01.prefab using Guid(589f129ff3a528848aae380f6f5dd2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2cb4e30512db18d46cb01ca0647943') in 0,058802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000049 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/generator_001.prefab
+  artifactKey: Guid(0abd3115d3313b64fa38e15898f11fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/generator_001.prefab using Guid(0abd3115d3313b64fa38e15898f11fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e56e2b290f2edb2f4fbdae84e0f5bf') in 0,022069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000044 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/Barrel4.prefab
+  artifactKey: Guid(4439c19950e38d242afacf5c5fb20b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/Barrel4.prefab using Guid(4439c19950e38d242afacf5c5fb20b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e4fb1b41452877bdf64ad67c20263b') in 0,035633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000032 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/Eng_Cone02.prefab
+  artifactKey: Guid(5d0dad8cda11ea04688ae1484c5ce067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/Eng_Cone02.prefab using Guid(5d0dad8cda11ea04688ae1484c5ce067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5d1b679604d3ce185ee470149d49d5') in 0,019700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000033 seconds.
+  path: Assets/ULTIMATE CONSTRUCTION/PREFAB/Eng_ConcreteBlock04.prefab
+  artifactKey: Guid(1d0183306e969924fb22b26eae0d10d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ULTIMATE CONSTRUCTION/PREFAB/Eng_ConcreteBlock04.prefab using Guid(1d0183306e969924fb22b26eae0d10d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41113ea68fd5fda521c42a638ee546f2') in 0,020185 seconds 
