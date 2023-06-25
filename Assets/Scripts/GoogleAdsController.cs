@@ -7,7 +7,7 @@ public class GoogleAdsController : MonoBehaviour
 {
     private InterstitialAd interstitialAd;
     [SerializeField]private GameObject player;
-    [SerializeField]private string interstitialUnitId = "ca-app-pub-4645466233864773/8590354460";
+    [SerializeField]private string interstitialUnitId = "ca-app-pub-3940256099942544/8691691433";
     
     /// <summary>
     /// Final token is: "ca-app-pub-4645466233864773/8590354460"
