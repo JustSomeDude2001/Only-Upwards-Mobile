@@ -7,7 +7,6 @@ using Lean.Touch;
 
 public class FingerOnUIChecker : MonoBehaviour
 {
-    public static bool isTouchingUI;
     public static CinemachineInputProvider cinemachineInputProvider;
 
     private void Start()
@@ -15,33 +14,15 @@ public class FingerOnUIChecker : MonoBehaviour
         cinemachineInputProvider = GameObject.FindObjectOfType<CinemachineInputProvider>();
     }
 
-    private void OnEnable()
-    {
-        LeanTouch.OnFingerDown += HandleFingerDown;
-    }
-
-    private void OnDisable()
-    {
-        LeanTouch.OnFingerDown -= HandleFingerDown;
-    }
-
-    private void HandleFingerDown(LeanFinger finger)
-    {
-        if (finger.IsOverGui)
-        {
-            isTouchingUI = true;
-            cinemachineInputProvider.enabled = false;
-            Debug.Log("Finger on GUI");
-        }
-    }
-
     private void Update()
     {
-        if (isTouchingUI && !LeanTouch.Fingers.Exists(x => x.IsOverGui))
+        var fingers = LeanTouch.Fingers.FindAll(x => x.Set);
+        if (cinemachineInputProvider.enabled == false && fingers.Exists(x => !x.StartedOverGui))
         {
-            isTouchingUI = false;
-            cinemachineInputProvider.enabled = true;
-            Debug.Log("No Finger on GUI");
+            cinemachineInputProvider.enabled = true; 
+        } else if (cinemachineInputProvider.enabled && fingers.Exists(x => x.StartedOverGui))
+        { 
+            cinemachineInputProvider.enabled = false;
         }
     }
 }

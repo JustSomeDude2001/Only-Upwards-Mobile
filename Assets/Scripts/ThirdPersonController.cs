@@ -192,6 +192,8 @@ namespace StarterAssets
 
         private void CameraRotation()
         {
+            // This code is overriden.
+            return;
             // if there is an input and camera position is not fixed
             if (_input.look.sqrMagnitude >= _threshold && !LockCameraPosition)
             {
