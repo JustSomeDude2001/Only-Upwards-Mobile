@@ -22,6 +22,9 @@ public class GoogleAdsController : MonoBehaviour
     {
         initial = player.transform.position.y;
         EnableInterstitialAd();
+        RequestConfiguration requestConfiguration = MobileAds.GetRequestConfiguration().ToBuilder()
+            .SetTagForChildDirectedTreatment(TagForChildDirectedTreatment.True).build();
+        MobileAds.SetRequestConfiguration(requestConfiguration);
     }
 
     // Update is called once per frame
