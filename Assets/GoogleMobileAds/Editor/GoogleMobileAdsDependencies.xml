@@ -5,6 +5,8 @@
         <repository>https://maven.google.com/</repository>
       </repositories>
     </androidPackage>
+
+    <androidPackage spec="androidx.work:work-runtime:2.7.0"/>
   </androidPackages>
 
   <iosPods>
